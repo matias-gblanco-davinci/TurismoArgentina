@@ -8,7 +8,7 @@
 
     <div id="buy-container">
         <p>Total: ${{totalPrice}} ARS</p>
-        <button (click)="buy()" type="button" aria-label="Buy cart button" [disabled]="totalPrice <= 0">
+        <button (click)="buyProducts()" type="button" aria-label="Buy cart button" [disabled]="totalPrice <= 0">
             {{'ECOMMERCE.CART.BUY_FORM.BUY' | translate}}
         </button>
         <div id="coupon">

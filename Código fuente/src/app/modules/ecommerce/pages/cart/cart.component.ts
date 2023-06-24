@@ -90,7 +90,7 @@ export class CartComponent implements OnInit {
     this.totalPrice -= totalActivityPrice;
   }
 
-  public buy(): void {
+  public buyProducts(): void {
     if (!this.authService.keycloakUser) this.showBuyErrorModal();
     else {
       this.createPurchase();
