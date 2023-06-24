@@ -1,0 +1,3 @@
+<header>
+    <img *ngIf="activity?.image1" parallaxDirective [ratio]="0.5" [src]="'http://localhost:8090/api/activities/img/' + activity.image1" [alt]="activity.name + ' header image'">
+</header>

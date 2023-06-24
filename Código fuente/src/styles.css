@@ -1,0 +1,39 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.swal2-popup {
+    font-family: 'Pangea' !important;
+    border-radius: 25px !important;
+}
+
+.swal2-styled {
+    min-width: 151px;
+}
+
+.swal2-timer-progress-bar-container {
+    padding: 5px 25px;
+}
+
+.swal2-timer-progress-bar {
+    border-radius: 25px;
+}
+
+@font-face {
+    font-family: 'Pangea';
+    src: url('assets/fonts/PangeaAfrikanTrial-SemiBold.otf');
+}
+
+@font-face {
+    font-family: 'BlackJack';
+    src: url('assets/fonts/blackjack.otf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('assets/fonts/Roboto-Regular.ttf');
+}

@@ -1,0 +1,28 @@
+<app-spinner *ngIf="!activitiesAreLoaded"></app-spinner>
+
+<div *ngIf="activitiesAreLoaded" [ngClass]="activities.length > 0 ? 'table-container-with-content' : 'table-container-without-content'">
+    <admin-searchbar (searchEvent)="search($event)" (resetEvent)="resetSearch()"></admin-searchbar>
+    
+    <table *ngIf="activities.length > 0">
+        <thead>
+            <tr>
+                <th>{{'ADMIN_PANEL.ACTIVITIES.NAME' | translate}}</th>
+                <th>{{'ADMIN_PANEL.ACTIVITIES.ACTIONS' | translate}}</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let activity of activities">
+                <td>{{activity.name}}</td>
+                <td class="table-btns">
+                    <i (click)="showRestoreModal(activity)" class="fa-solid fa-trash-can-arrow-up"></i>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <app-paginator (changePageEvent)="changePage($event)" [page]="page" [isFirstPage]="isFirstPage" [isLastPage]="isLastPage" [totalPages]="totalPages" *ngIf="activities.length > 0"></app-paginator>
+</div>
+
+<p class="no-activities" *ngIf="activitiesAreLoaded && activities.length == 0">
+    {{'ADMIN_PANEL.ACTIVITIES.NO_DELETED_ACTIVITIES' | translate}}
+</p>

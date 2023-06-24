@@ -1,0 +1,14 @@
+<section>
+    <h1>{{'NAVBAR.PROVINCES' | translate}}</h1>
+
+    <app-spinner *ngIf="provinces.length == 0"></app-spinner>
+
+    <div id="provinces" *ngIf="provinces.length > 0">
+        <div class="province" *ngFor="let province of provinces" (click)="goToProvince(province.idProvince)">
+            <img [src]="'http://localhost:8090/api/provinces/img/' + province.image" [alt]="province.name + ' image'">
+            <p>{{province.name}}</p>
+        </div>
+    </div>
+
+    <app-paginator (changePageEvent)="changePage($event)" [page]="page" [isFirstPage]="isFirstPage" [isLastPage]="isLastPage" [totalPages]="totalPages"></app-paginator>
+</section>

@@ -1,0 +1,16 @@
+<div id="paginator">
+    <button [disabled]="isFirstPage" aria-label="First page" (click)="goFirstPage()">
+        <i class="fa-solid fa-angles-left"></i>
+    </button>
+    <button [disabled]="isFirstPage" aria-label="Previous page" (click)="goPreviousPage()">
+        <i class="fa-solid fa-angle-left"></i>
+    </button>
+    <input #inputPage id="current-page" type="number" [value]="page + 1" min="1" [max]="totalPages"
+        (keypress)="goToSelectedPage($event)"> {{'PAGINATOR.OF' | translate}} {{totalPages}}
+    <button [disabled]="isLastPage" aria-label="Next page" (click)="goNextPage()">
+        <i class="fa-solid fa-angle-right"></i>
+    </button>
+    <button [disabled]="isLastPage" aria-label="Last page" (click)="goLastPage()">
+        <i class="fa-solid fa-angles-right"></i>
+    </button>
+</div>

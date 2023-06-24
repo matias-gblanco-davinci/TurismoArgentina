@@ -1,0 +1,277 @@
+{
+    "GENERAL": {
+        "DETAILS": "Detalles",
+        "UNAUTHORISED_TITLE": "Acceso no autorizado",
+        "UNAUTHORISED_TEXT": "No está autorizado a entrar en esta página",
+        "SUBMIT": "Enviar",
+        "UNAUTHORISED_BUY": "Necesitas iniciar sesión para poder comprar"
+    },
+    "LANGUAGES": {
+        "en": "English",
+        "es": "Español",
+        "pt": "Português (BR)"
+    },
+    "NAVBAR": {
+        "HOME": "Inicio",
+        "PROVINCES": "Provincias",
+        "LOCATIONS": "Localidades",
+        "ACTIVITIES": "Actividades",
+        "CART": "Carrito",
+        "ACCOUNT": "Cuenta",
+        "LOGIN": "Iniciar sesión",
+        "ADMIN": "Panel de administración",
+        "DASHBOARD": "Panel de control",
+        "COUPONS": "Cupones",
+        "SHOP": "Tienda"
+    },
+    "PAGINATOR": {
+        "OF": "de"
+    },
+    "SPINNER": {
+        "LOADING": "Cargando..."
+    },
+    "ECOMMERCE": {
+        "SELECTORS": {
+            "PROVINCE": "Elige una provincia",
+            "LOCATION": "Elige una localidad",
+            "DEFAULT_OPTION": "Todas"
+        },
+        "BUY_FORM": {
+            "LABEL": "¿Cuántas personas irán?",
+            "SEND_BUTTON": "Agregar al carrito"
+        },
+        "INDEX": {
+            "LOCATIONS": {
+                "MORE_LOCATIONS_LINK": "Más localidades >>"
+            },
+            "ACTIVITIES": {
+                "MORE_ACTIVITIES_LINK": "Más actividades >>"
+            },
+            "CONTACT": {
+                "TITLE": "Contáctanos",
+                "FORM": {
+                    "NAME": "Nombre",
+                    "MESSAGE": "Mensaje",
+                    "SEND": "Enviar"
+                }
+            }
+        },
+        "LOCATION": {
+            "BUY": {
+                "TITLE": "¡Vamos a volar!",
+                "ADDED": "¡La localidad se agregó al carrito correctamente!",
+                "GO_TO": "Ir al carrito",
+                "CONTINUE": "Continuar comprando"
+            }
+        },
+        "ACTIVITY": {
+            "BUY": {
+                "TITLE": "¡Vamos a divertirnos!",
+                "ADDED": "¡La actividad se agregó al carrito correctamente!",
+                "GO_TO": "Ir al carrito",
+                "CONTINUE": "Continuar comprando"
+            }
+        },
+        "CART": {
+            "LOCATIONS": {
+                "NO_LOCATIONS": "No tienes ninguna localidad en el carrito",
+                "ALREADY_IN_CART": "La localidad ya está en el carrito"
+            },
+            "ACTIVITIES": {
+                "NO_ACTIVITIES": "No tienes ninguna actividad en el carrito",
+                "ALREADY_IN_CART": "La actividad ya está en el carrito"
+            },
+            "BUY_FORM": {
+                "BUY": "Comprar",
+                "COUPON": "Canjear cupón",
+                "APPLY_COUPON": "Aplicar"
+            }
+        },
+        "ACCOUNT": {
+            "ACCOUNT_INFO_TEXT": "Cambiar información de la cuenta",
+            "ACCOUNT_INFO_BUTTON": "Panel de cuenta",
+            "LANGUAGE": "Idioma",
+            "LOGOUT": "Cerrar sesión",
+            "NO_PURCHASES": "Aún no ha realizado ninguna compra",
+            "TABLE": {
+                "LOCATIONS": "Localidades",
+                "ACTIVITIES": "Actividades",
+                "DATE": "Fecha",
+                "PRICE": "Precio",
+                "REFUNDED": "Reembolsada",
+                "YES": "Sí",
+                "NO": "No",
+                "ACTIONS": "Acciones"
+            },
+            "REFUND": {
+                "TITLE": "¿Está seguro de que desea reembolsar esta compra?",
+                "TEXT": "Está acción no se puede deshacer",
+                "CONFIRM_BTN": "Reembolsar",
+                "CANCEL_BTN": "Cancelar"
+            },
+            "PURCHASE": {
+                "INFORMATION": "Información de la compra",
+                "DATE": "Fecha",
+                "PRICE": "Precio total",
+                "REFUNDED": "¿Fue reembolsada?",
+                "YES": "Sí",
+                "NO": "No"
+            }
+        }
+    },
+    "ADMIN_PANEL": {
+        "DASHBOARD": {
+            "PURCHASES": {
+                "QUANTITY": "Cantidad de compras realizadas este mes",
+                "PROFIT": "Ganancia"
+            },
+            "REFUNDS": {
+                "QUANTITY": "Cantidad de reembolsos realizados este mes",
+                "MONEY": "Dinero devuelto"
+            },
+            "USERS": {
+                "QUANTITY": "Cantidad de usuarios registrados",
+                "CLARIFICATION": "Cantidad de usuarios registrados en la base de datos"
+            },
+            "PROVINCES": {
+                "QUANTITY": "Cantidad de provincias registradas",
+                "CLARIFICATION": "Cantidad de provincias registradas en la base de datos"
+            },
+            "LOCATIONS": {
+                "QUANTITY": "Cantidad de localidades registradas",
+                "CLARIFICATION": "Cantidad de localidades registradas en la base de datos"
+            },
+            "ACTIVITIES": {
+                "QUANTITY": "Cantidad de actividades registradas",
+                "CLARIFICATION": "Cantidad de actividades registradas en la base de datos"
+            }
+        },
+        "PROVINCES": {
+            "NAME": "Nombre",
+            "ACTIONS": "Acciones",
+            "DELETE_MODAL": {
+                "TITLE": "¿Está seguro?",
+                "TEXT": "Está acción se puede deshacer desde la tabla de provincias eliminadas (ten en cuenta que también eliminara las localidades y las actividades vinculadas a esta provincia)",
+                "CONFIRM_BTN": "Eliminar",
+                "CANCEL_BTN": "Cancelar"
+            },
+            "RESTORE_MODAL": {
+                "TITLE": "¿Está seguro?",
+                "TEXT": "Está acción se puede deshacer desde la tabla de provincias",
+                "CONFIRM_BTN": "Restaurar",
+                "CANCEL_BTN": "Cancelar"
+            },
+            "NO_PROVINCES": "No hay provincias en la base de datos",
+            "NO_DELETED_PROVINCES": "No hay provincias eliminadas en la base de datos",
+            "ADD": "Añadir provincia",
+            "EDIT": "Editar provincia",
+            "FORM": {
+                "NAME": "Nombre",
+                "NAME_REQUIRED": "El nombre es requerido",
+                "NAME_MAXLENGTH": "El nombre no puede exceder los 20 caracteres",
+                "DESCRIPTION": "Descripción",
+                "DESCRIPTION_REQUIRED": "La descripción es requerida",
+                "DESCRIPTION_MAXLENGTH": "La descripción no puede exceder los 600 caracteres",
+                "IMAGE": "Imagen",
+                "IMAGE_TYPEOF": "La imagen debe ser del formato imagen"
+            }
+        },
+        "LOCATIONS": {
+            "NAME": "Nombre",
+            "ACTIONS": "Acciones",
+            "DELETE_MODAL": {
+                "TITLE": "¿Está seguro?",
+                "TEXT": "Está acción se puede deshacer desde la tabla de localidades eliminadas (ten en cuenta que también eliminara las actividades vinculadas a esta localidad)",
+                "CONFIRM_BTN": "Eliminar",
+                "CANCEL_BTN": "Cancelar"
+            },
+            "RESTORE_MODAL": {
+                "TITLE": "¿Está seguro?",
+                "TEXT": "Está acción se puede deshacer desde la tabla de localidades",
+                "CONFIRM_BTN": "Restaurar",
+                "CANCEL_BTN": "Cancelar"
+            },
+            "NO_LOCATIONS": "No hay localidades en la base de datos",
+            "NO_DELETED_LOCATIONS": "No hay localidades eliminadas en la base de datos",
+            "ADD": "Añadir localidad",
+            "EDIT": "Editar localidad",
+            "FORM": {
+                "NAME": "Nombre",
+                "NAME_REQUIRED": "El nombre es requerido",
+                "NAME_MAXLENGTH": "El nombre no puede exceder los 45 caracteres",
+                "DESCRIPTION": "Descripción",
+                "DESCRIPTION_REQUIRED": "La descripción es requerida",
+                "DESCRIPTION_MAXLENGTH": "La descripción no puede exceder los 600 caracteres",
+                "IMAGE": "Imagen",
+                "IMAGE_TYPEOF": "La imagen debe ser del formato imagen",
+                "PRICE": "Precio",
+                "PRICE_REQUIRED": "El precio es requerido",
+                "PROVINCE": "Provincia"
+            }
+        },
+        "ACTIVITIES": {
+            "NAME": "Nombre",
+            "ACTIONS": "Acciones",
+            "DELETE_MODAL": {
+                "TITLE": "¿Está seguro?",
+                "TEXT": "Está acción se puede deshacer desde la tabla de actividades eliminadas",
+                "CONFIRM_BTN": "Eliminar",
+                "CANCEL_BTN": "Cancelar"
+            },
+            "RESTORE_MODAL": {
+                "TITLE": "¿Está seguro?",
+                "TEXT": "Está acción se puede deshacer desde la tabla de actividades",
+                "CONFIRM_BTN": "Restaurar",
+                "CANCEL_BTN": "Cancelar"
+            },
+            "NO_ACTIVITIES": "No hay actividades en la base de datos",
+            "NO_DELETED_ACTIVITIES": "No hay actividades eliminadas en la base de datos",
+            "ADD": "Añadir actividad",
+            "EDIT": "Editar actividad",
+            "FORM": {
+                "NAME": "Nombre",
+                "NAME_REQUIRED": "El nombre es requerido",
+                "NAME_MAXLENGTH": "El nombre no puede exceder los 65 caracteres",
+                "DESCRIPTION": "Descripción",
+                "DESCRIPTION_REQUIRED": "La descripción es requerida",
+                "DESCRIPTION_MAXLENGTH": "La descripción no puede exceder los 600 caracteres",
+                "IMAGE1": "Imagen 1",
+                "IMAGE2": "Imagen 2",
+                "IMAGE3": "Imagen 3",
+                "IMAGE_TYPEOF": "La imagen debe ser del formato imagen",
+                "PRICE": "Precio",
+                "PRICE_REQUIRED": "El precio es requerido",
+                "LOCATION": "Localidad"
+            }
+        },
+        "COUPONS": {
+            "NAME": "Nombre",
+            "DISCOUNT": "Descuento",
+            "START_DATE": "Fecha de inicio",
+            "FINISH_DATE": "Fecha de finalización",
+            "ACTIONS": "Acciones",
+            "DELETE_MODAL": {
+                "TITLE": "¿Está seguro?",
+                "TEXT": "Esta acción no puede deshacerse",
+                "CONFIRM_BTN": "Eliminar",
+                "CANCEL_BTN": "Cancelar"
+            },
+            "NO_COUPONS": "No hay cupones en la base de datos",
+            "ADD": "Agregar cupón",
+            "EDIT": "Editar cupón",
+            "FORM": {
+                "NAME": "Nombre",
+                "NAME_REQUIRED": "El nombre es requerido",
+                "NAME_MAXLENGTH": "Name cannot exceed 30 characters",
+                "DISCOUNT": "Descuento",
+                "DISCOUNT_REQUIRED": "El descuento es requerido",
+                "DISCOUNT_MIN": "El descuento debe ser mayor a 0",
+                "DISCOUNT_MAX": "El descuento no puede exceder el 100%",
+                "START_DATE": "Fecha de inicio",
+                "START_DATE_REQUIRED": "La fecha de inicio es requerida",
+                "FINISH_DATE": "Fecha de finalización",
+                "FINISH_DATE_REQUIRED": "La fecha de finalización es requerida"
+            }
+        }
+    }
+}

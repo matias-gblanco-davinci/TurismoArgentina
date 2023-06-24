@@ -1,0 +1,5 @@
+<section>
+    <h1 *ngIf="location?.name">{{location.name}}</h1>
+    <a *ngIf="location?.province" [routerLink]="['/shop/provinces/', location.province.idProvince]">({{location.province.name}})</a>
+    <p *ngIf="location?.name">{{location.description}}</p>
+</section>

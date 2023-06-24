@@ -1,0 +1,98 @@
+section {
+    padding: 15px;
+    font-family: 'Pangea';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+form label span {
+    color: red;
+}
+
+form input, form textarea {
+    background: rgb(221, 221, 221);
+    border: none;
+    border-bottom: 2px solid rgb(184, 184, 184);
+    margin-bottom: 10px;
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+form textarea {
+    resize: none;
+    height: 150px;
+}
+
+form input:focus:invalid, 
+form textarea:focus:invalid {
+    border-width: 0;
+    border-bottom: 2px solid red;
+    outline: none;
+}
+
+form input:focus:valid, 
+form textarea:focus:valid {
+    border-width: 0;
+    border-bottom: 2px solid green;
+    outline: none;
+}
+
+form input[type=submit] {
+    background: -webkit-linear-gradient(to right, #56CCF2, #2F80ED);
+    background: linear-gradient(to right, #56CCF2, #2F80ED);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+form input[type=submit]:focus {
+    border-bottom: none;
+}
+
+form input[type=submit]:hover {
+    background: -webkit-linear-gradient(to right, #4bafd1, #286fca);
+    background: linear-gradient(to right, #4bafd1, #286fca);
+}
+
+@media (min-width: 768px) {
+    section {
+        padding: 25px;
+    }
+
+    form {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1038px) {
+    section h2 {
+        font-size: 2.5rem;
+    }
+
+    form {
+        width: 35%;
+    }
+
+    form input[type=submit] {
+        width: 35%;
+        margin: 0 auto;
+    }
+}

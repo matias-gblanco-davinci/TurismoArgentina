@@ -1,0 +1,277 @@
+{
+    "GENERAL": {
+        "DETAILS": "Details",
+        "UNAUTHORISED_TITLE": "Unauthorised access",
+        "UNAUTHORISED_TEXT": "You are not authorised to enter this page",
+        "SUBMIT": "Submit",
+        "UNAUTHORISED_BUY": "You need to be logged in before you can buy"
+    },
+    "LANGUAGES": {
+        "en": "English",
+        "es": "Español",
+        "pt": "Português (BR)"
+    },
+    "NAVBAR": {
+        "HOME": "Home",
+        "PROVINCES": "Provinces",
+        "LOCATIONS": "Locations",
+        "ACTIVITIES": "Activities",
+        "CART": "Cart",
+        "ACCOUNT": "Account",
+        "LOGIN": "Login",
+        "ADMIN": "Admin panel",
+        "DASHBOARD": "Dashboard",
+        "COUPONS": "Coupons",
+        "SHOP": "Shop"
+    },
+    "PAGINATOR": {
+        "OF": "of"
+    },
+    "SPINNER": {
+        "LOADING": "Loading..."
+    },
+    "ECOMMERCE": {
+        "SELECTORS": {
+            "PROVINCE": "Choose a province",
+            "LOCATION": "Choose a location",
+            "DEFAULT_OPTION": "All"
+        },
+        "BUY_FORM": {
+            "LABEL": "How many people will go?",
+            "SEND_BUTTON": "Add to cart"
+        },
+        "INDEX": {
+            "LOCATIONS": {
+                "MORE_LOCATIONS_LINK": "More locations >>"
+            },
+            "ACTIVITIES": {
+                "MORE_ACTIVITIES_LINK": "More activities >>"
+            },
+            "CONTACT": {
+                "TITLE": "Contact us",
+                "FORM": {
+                    "NAME": "Name",
+                    "MESSAGE": "Message",
+                    "SEND": "Send"
+                }
+            }
+        },
+        "LOCATION": {
+            "BUY": {
+                "TITLE": "Let's fly!",
+                "ADDED": "The location was successfully added to your cart!",
+                "GO_TO": "Go to cart",
+                "CONTINUE": "Continue buying"
+            }
+        },
+        "ACTIVITY": {
+            "BUY": {
+                "TITLE": "Let's have some fun!",
+                "ADDED": "The activity was successfully added to your cart!",
+                "GO_TO": "Go to cart",
+                "CONTINUE": "Continue buying"
+            }
+        },
+        "CART": {
+            "LOCATIONS": {
+                "NO_LOCATIONS": "You do not have any location in your shopping cart",
+                "ALREADY_IN_CART": "The location is already in the cart"
+            },
+            "ACTIVITIES": {
+                "NO_ACTIVITIES": "You do not have any activity in your shopping cart",
+                "ALREADY_IN_CART": "The activity is already in the cart"
+            },
+            "BUY_FORM": {
+                "BUY": "Buy",
+                "COUPON": "Redeem coupon",
+                "APPLY_COUPON": "Apply"
+            }
+        },
+        "ACCOUNT": {
+            "ACCOUNT_INFO_TEXT": "Change account information",
+            "ACCOUNT_INFO_BUTTON": "Account panel",
+            "LANGUAGE": "Language",
+            "LOGOUT": "Logout",
+            "NO_PURCHASES": "You have not made any purchase yet",
+            "TABLE": {
+                "LOCATIONS": "Locations",
+                "ACTIVITIES": "Activities",
+                "DATE": "Date",
+                "PRICE": "Price",
+                "REFUNDED": "Refunded",
+                "YES": "Yes",
+                "NO": "No",
+                "ACTIONS": "Actions"
+            },
+            "REFUND": {
+                "TITLE": "Are you sure you want to refund this purchase?",
+                "TEXT": "This action cannot be undone",
+                "CONFIRM_BTN": "Refund",
+                "CANCEL_BTN": "Cancel"
+            },
+            "PURCHASE": {
+                "INFORMATION": "Purchase information",
+                "DATE": "Date",
+                "PRICE": "Total price",
+                "REFUNDED": "Was it refunded?",
+                "YES": "Yes",
+                "NO": "No"
+            }
+        }
+    },
+    "ADMIN_PANEL": {
+        "DASHBOARD": {
+            "PURCHASES": {
+                "QUANTITY": "Number of purchases made this month",
+                "PROFIT": "Profit"
+            },
+            "REFUNDS": {
+                "QUANTITY": "Number of refunds made this month",
+                "MONEY": "Money returned"
+            },
+            "USERS": {
+                "QUANTITY": "Number of registered users",
+                "CLARIFICATION": "Number of registered users in the database"
+            },
+            "PROVINCES": {
+                "QUANTITY": "Number of registered provinces",
+                "CLARIFICATION": "Number of registered provinces in the database"
+            },
+            "LOCATIONS": {
+                "QUANTITY": "Number of registered locations",
+                "CLARIFICATION": "Number of registered locations in the database"
+            },
+            "ACTIVITIES": {
+                "QUANTITY": "Number of registered activities",
+                "CLARIFICATION": "Number of registered activities in the database"
+            }
+        },
+        "PROVINCES": {
+            "NAME": "Name",
+            "ACTIONS": "Actions",
+            "DELETE_MODAL": {
+                "TITLE": "Are you sure?",
+                "TEXT": "This action can be undone from the table of deleted provinces (please note that it will also remove the locations and the activities linked to this province)",
+                "CONFIRM_BTN": "Delete",
+                "CANCEL_BTN": "Cancel"
+            },
+            "RESTORE_MODAL": {
+                "TITLE": "Are you sure?",
+                "TEXT": "This action can be undone from the table of provinces",
+                "CONFIRM_BTN": "Restore",
+                "CANCEL_BTN": "Cancel"
+            },
+            "NO_PROVINCES": "No provinces in the database",
+            "NO_DELETED_PROVINCES": "No deleted provinces in the database",
+            "ADD": "Add province",
+            "EDIT": "Edit province",
+            "FORM": {
+                "NAME": "Name",
+                "NAME_REQUIRED": "Name is required",
+                "NAME_MAXLENGTH": "Name cannot exceed 20 characters",
+                "DESCRIPTION": "Description",
+                "DESCRIPTION_REQUIRED": "Description is required",
+                "DESCRIPTION_MAXLENGTH": "Description cannot exceed 600 characters",
+                "IMAGE": "Image",
+                "IMAGE_TYPEOF": "Image must be an image"
+            }
+        },
+        "LOCATIONS": {
+            "NAME": "Name",
+            "ACTIONS": "Actions",
+            "DELETE_MODAL": {
+                "TITLE": "Are you sure?",
+                "TEXT": "This action can be undone from the table of deleted locations (please note that it will also remove activities linked to this location)",
+                "CONFIRM_BTN": "Delete",
+                "CANCEL_BTN": "Cancel"
+            },
+            "RESTORE_MODAL": {
+                "TITLE": "Are you sure?",
+                "TEXT": "This action can be undone from the table of locations",
+                "CONFIRM_BTN": "Restore",
+                "CANCEL_BTN": "Cancel"
+            },
+            "NO_LOCATIONS": "No locations in the database",
+            "NO_DELETED_LOCATIONS": "No deleted locations in the database",
+            "ADD": "Add location",
+            "EDIT": "Edit location",
+            "FORM": {
+                "NAME": "Name",
+                "NAME_REQUIRED": "Name is required",
+                "NAME_MAXLENGTH": "Name cannot exceed 45 characters",
+                "DESCRIPTION": "Description",
+                "DESCRIPTION_REQUIRED": "Description is required",
+                "DESCRIPTION_MAXLENGTH": "Description cannot exceed 600 characters",
+                "IMAGE": "Image",
+                "IMAGE_TYPEOF": "Image must be an image",
+                "PRICE": "Price",
+                "PRICE_REQUIRED": "Price is required",
+                "PROVINCE": "Province"
+            }
+        },
+        "ACTIVITIES": {
+            "NAME": "Name",
+            "ACTIONS": "Actions",
+            "DELETE_MODAL": {
+                "TITLE": "Are you sure?",
+                "TEXT": "This action can be undone from the table of deleted activities",
+                "CONFIRM_BTN": "Delete",
+                "CANCEL_BTN": "Cancel"
+            },
+            "RESTORE_MODAL": {
+                "TITLE": "Are you sure?",
+                "TEXT": "This action can be undone from the table of activities",
+                "CONFIRM_BTN": "Restore",
+                "CANCEL_BTN": "Cancel"
+            },
+            "NO_ACTIVITIES": "No activities in the database",
+            "NO_DELETED_ACTIVITIES": "No deleted activities in the database",
+            "ADD": "Add activity",
+            "EDIT": "Edit activity",
+            "FORM": {
+                "NAME": "Name",
+                "NAME_REQUIRED": "Name is required",
+                "NAME_MAXLENGTH": "Name cannot exceed 65 characters",
+                "DESCRIPTION": "Description",
+                "DESCRIPTION_REQUIRED": "Description is required",
+                "DESCRIPTION_MAXLENGTH": "Description cannot exceed 600 characters",
+                "IMAGE1": "Image 1",
+                "IMAGE2": "Image 2",
+                "IMAGE3": "Image 3",
+                "IMAGE_TYPEOF": "Image must be an image",
+                "PRICE": "Price",
+                "PRICE_REQUIRED": "Price is required",
+                "LOCATION": "Location"
+            }
+        },
+        "COUPONS": {
+            "NAME": "Name",
+            "DISCOUNT": "Discount",
+            "START_DATE": "Start date",
+            "FINISH_DATE": "Finish date",
+            "ACTIONS": "Actions",
+            "DELETE_MODAL": {
+                "TITLE": "Are you sure?",
+                "TEXT": "This action cannot be undone",
+                "CONFIRM_BTN": "Delete",
+                "CANCEL_BTN": "Cancel"
+            },
+            "NO_COUPONS": "No coupons in the database",
+            "ADD": "Add coupon",
+            "EDIT": "Edit coupon",
+            "FORM": {
+                "NAME": "Name",
+                "NAME_REQUIRED": "Name is required",
+                "NAME_MAXLENGTH": "Name cannot exceed 30 characters",
+                "DISCOUNT": "Discount",
+                "DISCOUNT_REQUIRED": "Discount is required",
+                "DISCOUNT_MIN": "Discount must be greater than 0",
+                "DISCOUNT_MAX": "Discount cannot exceed 100%",
+                "START_DATE": "Start date",
+                "START_DATE_REQUIRED": "Start date is required",
+                "FINISH_DATE": "Finish date",
+                "FINISH_DATE_REQUIRED": "Finish date is required"
+            }
+        }
+    }
+}
